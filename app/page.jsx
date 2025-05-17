@@ -22,7 +22,7 @@ const HomePage = () => {
       <header className="flex justify-between items-center px-10 py-5 bg-white shadow-sm">
         <div className="text-2xl font-bold text-primary">AIcruiter</div>
         <Button
-          onClick={() => router.push("/signin")}
+          onClick={() => router.push("/auth")}
           className="px-6 py-2 text-white bg-primary hover:bg-primary/90"
         >
           Sign In
